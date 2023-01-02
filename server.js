@@ -1,12 +1,7 @@
 const express = require('express');
 const path = require('path');
 //const fs = require('fs');
-const api = require('./routes/index');
-// import database
-//const noteData = require('./db/db.json');
-
-//require uniq ID helper 
-//const generateId = require('generate-unique-id');
+const api = require('./routes/notes');
 
 const PORT = 3001;
 const app = express();
