@@ -16,7 +16,7 @@ Application allowes user to add and save new notes to data base. User can see ex
 Or you can visit url: https://stormy-escarpment-89745.herokuapp.com/
 # Usage 
 
-![User-Story](../Note-taker/public/assets/Images/Deployed%20application.png)
+![User-Story](./public/assets/Images/Deployed%20application.png)
 # License 
 
 This application is covered under MIT, to find more information about it click on https://choosealicense.com/licenses/mit/. 
