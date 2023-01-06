@@ -25,7 +25,6 @@ notes.post("/notes", (req, res) => {
       title,
       id: generateId(),
     };
-    console.log(newNote);
 
     fs.readFile(`./db/db.json`, "utf8", (err, data) => {
       if (err) {
@@ -35,7 +34,6 @@ notes.post("/notes", (req, res) => {
         const activeNotes = JSON.parse(data);
 
         activeNotes.push(newNote);
-        //console.log(activeNotes);
         //after we added new notes to active notes
         // Write the string to a file..we are doing json stringify to convert array to string
         fs.writeFile(`./db/db.json`,JSON.stringify(activeNotes, null, 2),(err) =>
@@ -55,6 +53,7 @@ notes.post("/notes", (req, res) => {
 });
 
 
+ //delete notes 
 notes.delete("/notes/:id", (req, res) => {
   fs.readFile(`./db/db.json`, "utf8", (err, data) => {
     if (err) {

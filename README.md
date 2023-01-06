@@ -13,16 +13,16 @@ Application allowes user to add and save new notes to data base. User can see ex
 
 ``git clone git@github.com:Jelenarog/Note-taker.git``
 
-Or you can visit url:
+Or you can visit url: https://stormy-escarpment-89745.herokuapp.com/
 # Usage 
 
-![User-Story](./Assets/Images/fd.png)
+![User-Story](../Note-taker/public/assets/Images/Deployed%20application.png)
 # License 
 
 This application is covered under MIT, to find more information about it click on https://choosealicense.com/licenses/mit/. 
 # Links
-Github repo: 
-Deployed URL
+Github repo: https://github.com/Jelenarog/Note-taker
+Deployed URL: https://stormy-escarpment-89745.herokuapp.com/
 
 # Tests 
 
