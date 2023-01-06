@@ -21,7 +21,7 @@ Or you can visit url: https://stormy-escarpment-89745.herokuapp.com/
 
 This application is covered under MIT, to find more information about it click on https://choosealicense.com/licenses/mit/. 
 # Links
-Github repo: https://github.com/Jelenarog/Note-taker
+Github repo: https://github.com/Jelenarog/Note-taker <br>
 Deployed URL: https://stormy-escarpment-89745.herokuapp.com/
 
 # Tests 
